@@ -1,0 +1,102 @@
+﻿body {
+
+
+}
+#viewList {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+    color: #dd9933;
+    line-height: 1.8;
+    border: 1px solid #dd9933;
+}
+.rowDiv {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size:18px;
+    font-weight:bold;
+    justify-content: space-around;
+}
+#viewList .rowDiv {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 18px;
+    justify-content: space-around;
+}
+#viewList span {
+    width: 500px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px;
+}
+#viewList a {
+    display: inline-block;
+    text-decoration: none;
+    width: 80px;
+    height: 30px;
+    line-height: 1.8;
+    font-size: 18px;
+    margin:0 5px;
+    font-weight: bold;
+    color: black;
+    border:1px solid black;
+}
+#viewList a:hover {
+    color:#dd9933;
+}
+form#form1 {
+    margin: 40px auto;
+}
+.addAndUpdate {
+    margin: 30px auto;
+}
+
+#sIDLabel,
+#nameLabel,
+#emailLabel {
+    color: #dd9933;
+    width: 200px;
+    display: inline-block;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#sIDTextBox,
+#nameTextBox,
+#emailTextBox {
+    width: 180px;
+    height: 20px;
+    line-height: -1.2;
+    font-size: 18px;
+    font-weight: bold;
+}
+#sIDTextBox{
+    color:#dd9933;
+}
+
+
+#addBtn,
+#updateBtn {
+    color: #dd9933;
+    width: 80px;
+    height: 30px;
+    margin-left:20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+#addBtn:hover,
+#updateBtn:hover {
+    color: black;
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color:#dd9933;
+}
